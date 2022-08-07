@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    /* Primary */
+    --primary-dark-cyan: hsl(185, 75%, 39%);
+    --primary-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    /* Neutral */
+    --neutral-dark-grey: hsl(0, 0%, 59%);
+    /* Fonts */
+    --font-main: 'Kumbh Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    
+    font-family: var(--font-main);
+}
+
+img {
+    overflow: hidden;
+    
+}
+
+.wrapper {
+    position: relative;
+    height: 97.9vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-dark-cyan);
+    overflow: hidden;
+    
+}
+
+
+
+.card {
+    position: relative;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    min-width: min(80%, 375px, 375px);
+    overflow: hidden;
+}
+
+.card h1 {
+    margin-top: 4rem;
+    font-size: 18px;
+    padding: .5rem;
+    font-weight: 700;
+}
+
+.card span {
+    color: var(--dark-grayish-blue);
+}
+
+.card p {
+    padding-bottom: 1.3rem;
+    color: var(--dark-grayish-blue);
+}
+
+.stat-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgb(193, 193, 193);
+    overflow: hidden;
+}
+
+.stat-container h2 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.stat-container p {
+    font-size: .8rem;
+    margin-top: .5rem;
+}
+
+.bottom-image {
+    overflow: hidden;
+}
+
+.bottom-image img {
+    overflow: hidden;
+}
+
+#top {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    object-fit: contain;
+}
+
+#bottom {
+    object-fit: contain;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    overflow: hidden;
+    margin: auto;
+
+
+}
+
+#victor {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    border-radius: 100%;
+    border: 6px solid white;
+}
+
+#pattern {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+
+.attribution {
+    background-color: var(--primary-dark-cyan);
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: var(--dark-grayish-blue);
+    text-decoration: none;
+}
