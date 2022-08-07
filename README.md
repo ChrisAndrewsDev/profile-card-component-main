@@ -28,7 +28,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/profile-card-vanilla-css-jNWmCERP4S)
 - Live Site URL: [My Deployed Solution](https://profile-card-component-main-beta-nine.vercel.app/)
 
 ## My process
